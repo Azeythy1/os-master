@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rowdies', cursive;
+    --texto: #EEE;
+    --fundo:#333;
+    background-color: var(--fundo);
+    color: var(--texto);
+}
+.form-loguin{
+    position: relative;
+    display: flex;
+    border-top-left-radius: 10px;
+    border-top: #EEE solid 2px;
+    border-left: #EEE solid 2px;
+    border-bottom: #EEE solid 1px;
+    border-right: #EEE solid 1px;
+    justify-content: center;
+    align-items:start;
+    align-content: center;
+    margin: 30px auto;
+    height: 320px;
+    width: 300px;
+    
+}
+
+.form-loguin .card-loguin .loguin-form{
+    padding-top: 20px;
+    margin: 20px;
+}
